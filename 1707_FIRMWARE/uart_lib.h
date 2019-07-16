@@ -11,13 +11,17 @@
 
 #include "avr/io.h"
 
-void initUSART(void);
+void initUSART(uint8_t baud_rate_code);
 
 void transmit_byte( uint8_t data );
 
 uint8_t receive_byte(void);
 
 int receive_byte_non_block(uint8_t *rx);
+
+void GetHexString(uint8_t byte, char *out);
+
+uint8_t GetByteFromString(char *in);
 
  void print_string(const char myString[]);
  
