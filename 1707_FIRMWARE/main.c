@@ -25,14 +25,14 @@
 #define PB_SCL_PIN 0
 #define PB_SDA_PIN 1
 
-#define DEFAULT_ADDR "02A007"
+#define DEFAULT_ADDR "07A008"
 #define DEFAULT_CAL_A 0.0f
 #define DEFAULT_CAL_B 1.0f
 #define DEFAULT_CAL_C 0.0f
 #define DEFAULT_CAL_D 0.0f
 #define DEFAULT_CAL_E 1.0f
 #define DEFAULT_CAL_F 0.0f
-#define DEFAULT_SETTING "41020050"
+#define DEFAULT_SETTING "41020030"
 // setting = [Single Address x 2 bytes] + [uart baud rate x 2 bytes] + [check_sum_enable x 1 byte] + [delay x 1 byte] + [avg_level x 1 byte]
 
 #define DEFAULT_SINGLE_PRIMARY_ID 0x41

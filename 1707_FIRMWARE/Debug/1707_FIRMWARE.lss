@@ -632,7 +632,7 @@ void init_config()
      4f4:	10 92 a1 38 	sts	0x38A1, r1	; 0x8038a1 <delay>
      4f8:	10 92 a2 38 	sts	0x38A2, r1	; 0x8038a2 <delay+0x1>
 	avg_level = DEFAULT_SETTING[6] - 0x30;
-     4fc:	85 e0       	ldi	r24, 0x05	; 5
+     4fc:	83 e0       	ldi	r24, 0x03	; 3
      4fe:	90 e0       	ldi	r25, 0x00	; 0
      500:	80 93 9f 38 	sts	0x389F, r24	; 0x80389f <avg_level>
      504:	90 93 a0 38 	sts	0x38A0, r25	; 0x8038a0 <avg_level+0x1>
